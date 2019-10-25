@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="hand_write">
+      <UniqueIdentifier>{ed49ff4c-8b27-4eb6-a3ec-173e793a9011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="static_reflection">
+      <UniqueIdentifier>{5119c277-a7c0-4134-bae9-c7232ba69724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dynamic_reflection">
+      <UniqueIdentifier>{b6ef66d1-cc31-4d40-9216-c1d325fb9245}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hand_write.h">
+      <Filter>hand_write</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamic_reflection.h">
+      <Filter>dynamic_reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamic_iostream.h">
+      <Filter>dynamic_reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="static_reflection.h">
+      <Filter>static_reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection_json.h">
+      <Filter>static_reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="static_iostream.h">
+      <Filter>static_reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="optional_json.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vcpkg\installed\x86-windows\include\nlohmann\json.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp_struct_reflection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
