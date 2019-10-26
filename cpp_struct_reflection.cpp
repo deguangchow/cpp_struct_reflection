@@ -8,12 +8,12 @@
 ///    \2019/10/24
 
 #include "stdafx.h"
-//#include "hand_write.h"
-//#include "dynamic_iostream.h"
+#include "hand_write.h"
+#include "dynamic_iostream.h"
 #if 0
 #include "static_iostream.h"
 #else
-#include "reflection_json.h"
+#include "json_data.h"
 #endif
 
 int main() {
@@ -23,10 +23,12 @@ int main() {
     test_dynamic_reflection();
 
     test_static_reflection();
-    test_static_reflection_json();
+    test_static_reflection_json_nested();
+	test_static_reflection_json_item1();
+	test_static_reflection_json_item2();
 #endif
 
-    test_static_reflection_json();
+	test_static_reflection_json_item2();
 
     return 0;
 }

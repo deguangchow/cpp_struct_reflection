@@ -150,6 +150,8 @@
     <ClInclude Include="dynamic_reflection.h" />
     <ClInclude Include="hand_write.h" />
     <ClInclude Include="optional_json.h" />
+    <ClInclude Include="json_data.h" />
+    <ClInclude Include="reflection_item.h" />
     <ClInclude Include="reflection_json.h" />
     <ClInclude Include="data.h" />
     <ClInclude Include="static_iostream.h" />

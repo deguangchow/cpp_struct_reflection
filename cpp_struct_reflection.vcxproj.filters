@@ -57,6 +57,12 @@
     <ClInclude Include="..\..\vcpkg\installed\x86-windows\include\nlohmann\json.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="json_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reflection_item.h">
+      <Filter>static_reflection</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
