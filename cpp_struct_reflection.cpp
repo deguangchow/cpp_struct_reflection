@@ -24,11 +24,11 @@ int main() {
 
     test_static_reflection();
     test_static_reflection_json_nested();
-	test_static_reflection_json_item1();
-	test_static_reflection_json_item2();
+    test_static_reflection_json_item1();
+    test_static_reflection_json_item2();
 #endif
 
-	test_static_reflection_json_item2();
+    test_static_reflection_json_item2();
 
     return 0;
 }

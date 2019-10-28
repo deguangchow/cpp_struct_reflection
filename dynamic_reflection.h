@@ -27,7 +27,7 @@ public:
 template<typename StructType, typename FieldType>
 class FieldConverter : public FieldConverterBase<StructType> {
 public:
-    FieldConverter(const std::string &name, FieldType StructType::*pointer, ValueConverter<FieldType> converter)
+    FieldConverter(const std::string &name, FieldType StructType::*pointer, ValueConverter<FieldType> &converter)
         : field_name_(name), field_pointer_(pointer), value_converter_(converter) {
     }
     void operator()(StructType *obj) const override {

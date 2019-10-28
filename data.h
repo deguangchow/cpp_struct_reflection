@@ -47,55 +47,55 @@ static auto const &g_sJsonTextInput = "{"
 "}";
 
 struct Property {
-	std::string sCode;
-	std::string sName;
-	std::string sUnit;
-	unsigned uCatagory;
-	double dAmount;
-	double dPrice;
-	double dSummary;
+    std::string sCode;
+    std::string sName;
+    std::string sUnit;
+    unsigned uCatagory;
+    double dAmount;
+    double dPrice;
+    double dSummary;
 };
 
 struct Item {
-	Property stProperty;
-	std::vector<Item> vctChild;
+    Property stProperty;
+    std::vector<Item> vctChild;
 };
 
 static auto const &g_sJsonItem = "{"
 "\"_child\": ["
 "{"
-"	\"_child\": [],"
-"		\"_property\": {"
-"		\"_amount\": 10.0,"
-"		\"_catagory\": 7,"
-"		\"_code\": \"1-1\","
-"		\"_name\": \"wa tu\","
-"		\"_price\": 1.5,"
-"		\"_summary\": 15.0,"
-"		\"_unit\": \"m2\""
-"}"
-"	},"
-"	{"
-"		\"_child\": [],"
-"		\"_property\": {"
-"		\"_amount\": 3.5,"
-"		\"_catagory\": 7,"
-"		\"_code\": \"2-1\","
-"		\"_name\": \"tu shi fang\","
-"		\"_price\": 2.0,"
-"		\"_summary\": 7.0,"
-"		\"_unit\": \"gong ri\""
-"	}"
-"	}"
+"   \"_child\": [],"
+"   \"_property\": {"
+"       \"_amount\": 10.0,"
+"       \"_catagory\": 7,"
+"       \"_code\": \"1-1\","
+"       \"_name\": \"wa tu\","
+"       \"_price\": 1.5,"
+"       \"_summary\": 15.0,"
+"       \"_unit\": \"m2\""
+"   }"
+"   },"
+"   {"
+"       \"_child\": [],"
+"       \"_property\": {"
+"       \"_amount\": 3.5,"
+"       \"_catagory\": 7,"
+"       \"_code\": \"2-1\","
+"       \"_name\": \"tu shi fang\","
+"       \"_price\": 2.0,"
+"       \"_summary\": 7.0,"
+"       \"_unit\": \"gong ri\""
+"   }"
+"   }"
 " ],"
 " \"_property\": {"
-"	  \"_amount\": 2.0,"
-"	  \"_catagory\": 6,"
-"	  \"_code\": \"010101001\","
-"	  \"_name\": \"ping zheng chang di\","
-"	  \"_price\": 3.0,"
-"	  \"_summary\": 6.0,"
-"	  \"_unit\": \"m2\""
+"       \"_amount\": 2.0,"
+"       \"_catagory\": 6,"
+"       \"_code\": \"010101001\","
+"       \"_name\": \"ping zheng chang di\","
+"       \"_price\": 3.0,"
+"       \"_summary\": 6.0,"
+"       \"_unit\": \"m2\""
 " }"
 "}";
 #endif  //DATA_H
